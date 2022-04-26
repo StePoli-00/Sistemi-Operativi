@@ -1,0 +1,26 @@
+
+controllare se un parametro è un numero
+
+expr $1 + 0 > /dev/null 2>&1
+ris=$?
+if test $ris -ne 2 -a $ris -ne 3
+sono sicuro che sia un numero
+
+case $1 in
+![0-9]) non è un numero;;
+) è un numero;;
+
+controllare che sia una stringa, che non contenga /
+
+case $1 in
+*/*) non è una stringa;;
+*) è una stringa;;
+
+controllo se il parametro è in forma assoluta
+case $1 in
+/*) è in forma assoluta;;
+*/*) non è in forma assoluta;;
+*) non è in forma assoluta;;
+
+come aggiornare una lista
+files="$files $parametro"

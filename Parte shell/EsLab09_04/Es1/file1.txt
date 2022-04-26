@@ -1,0 +1,10 @@
+1 ciao
+2 sono
+3 un 
+4 file
+5 di 
+6 prova
+7 per 
+8 uno 
+9 script
+10 prova

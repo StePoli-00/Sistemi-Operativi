@@ -1,0 +1,5 @@
+questo programma trova le occorrenze di caratteri minuscoli 
+con i nipoti che li trasformano in caratteri maiuscoli, mentre i figli
+cercano occorrenze di caratteri numerici 
+e li trasformano nel carattere spazio ' '. 
+si può ivocare con un numero di file > 2
